@@ -59,3 +59,6 @@ from bank.loan;
 
 select loan_id , date , duration , status , (amount - payments) / 1000 as balance_in_Thousans
 from bank.loan;
+
+
+select
